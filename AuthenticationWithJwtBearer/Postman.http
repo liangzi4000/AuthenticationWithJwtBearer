@@ -1,0 +1,10 @@
+@baseUrl=http://localhost:5216
+GET {{baseUrl}}/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlQGFiYy5jb20iLCJzdWIiOiJhZG1pbiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6ImFkbWluIiwiZXhwIjoxNzA0NzYzMDg0LCJpc3MiOiJkb3RuZXQtdXNlci1qd3RzIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MjE2In0.UWskEkzASFqMSnrvU4C_EeQGi4JpFppe2zcqlMiFQms
+
+###
+
+POST {{baseUrl}}/login
+Content-Type: application/x-www-form-urlencoded
+
+username=admin&password=password
